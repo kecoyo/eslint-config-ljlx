@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ljlx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config used at ljlx.",
   "main": "index.js",
   "repository": "git@github.com:kecoyo/prettier-config-ljlx.git",

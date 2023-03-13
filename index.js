@@ -1,6 +1,6 @@
 module.exports = {
-  "extends": ["airbnb-base"],
-  "rules": {
+  extends: ["airbnb-base"],
+  rules: {
     "array-bracket-spacing": 0, // 在数组括号内强制实现一致的间距
     "arrow-body-style": 0, // 可以强制或禁止在箭头函数体的周围使用大括号
     "arrow-parens": 0, // 在箭头函数参数周围加上括号
@@ -35,6 +35,7 @@ module.exports = {
     "no-unused-expressions": 0, // 旨在消除对程序状态没有影响的未使用的表达式
     "no-unused-vars": 0, // 旨在消除未使用的变量，函数和函数的参数
     "no-use-before-define": 0, // 会在遇到对尚未声明的标识符的引用时发出警告
+    "object-curly-newline": 0, // 在对象文字或解构赋值的大括号内强制执行一致的换行符
     "object-shorthand": 0, // 强制使用简写语法
     "prefer-arrow-callback": 0, // 定位用作回调函数或函数参数的函数表达式
     "prefer-const": 0, // 旨在标记使用let关键字声明的变量，但在初始分配后从未重新分配变量
@@ -42,6 +43,6 @@ module.exports = {
     "prefer-object-spread": 0, // 推荐使用对象扩展操作符（spread operator）浅拷贝对象
     "prefer-template": 0, // 旨在用字符串标记+操作符的用法
     "radix": 0, // 旨在防止意外地将字符串转换为与预期不同的基数
-    "space-before-function-paren": 0 // 旨在在函数括号之前强制执行一致的间距
-  }
+    "space-before-function-paren": 0, // 旨在在函数括号之前强制执行一致的间距
+  },
 };
